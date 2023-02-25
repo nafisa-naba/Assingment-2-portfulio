@@ -8,6 +8,7 @@ body{
     border-radius: 10px;
 }
 .firsec{
+    background-color: rgb(252, 213, 200);
     display: flex;
     padding: 20px;
     justify-content: space-between;
@@ -23,6 +24,7 @@ body{
     font-size: 26px;
 }
 #heading{
+    padding-left: 6px;
     border-left: 7px solid ;
     border-radius: 5px;
     border-color: rgb(246, 178, 119);
@@ -110,6 +112,8 @@ border-radius: 100px;
 
 .thirdsec{
     display: flex;
+    background-color:  rgb(252, 213, 200);
+    margin-top: 50px;
 }
 .development h1{
     font-size: 40px;
@@ -128,9 +132,13 @@ border-radius: 100px;
     height: 350x;
     width: 450px;
     border-radius: 20px;
+    margin-left: 6px;
 }
 .foursec{
+    background-color:  rgb(252, 213, 200);
     display: flex;
+    padding-top: 40px;
+    margin-top: 10px;
 }
 footer{
     padding: 8px;
@@ -168,10 +176,11 @@ footer h3{
 }
 .thank{
     text-align: center;
+    margin: 50px;
 }
 
 
-@media  only screen and ( min-width:560px ) and (max-width:570px) {
+@media  only screen  and (max-width:580px) {
     .firsec{
         display: flex;
         flex-direction: column;
@@ -197,11 +206,40 @@ footer h3{
     }
     .pic{
         margin-top: 30px;
+        width: 300px;
+        height: 220px;
     }
     .pic6{
         margin-top: 30px;
         margin-left: 25px;
+        width: 300px;
+        height: 220px;
     }
-}
+    .para{
+        font-size: 20px;
+        width: 250px;
+     }
+    .pic5{
+        width: 300px;
+        height: 220px;
+    }
+    .para2{
+        font-size: 15px;
+    }
+    .development{
+        padding: 10px;
+    }
+    }
+
+
+
+
+
+
+
+
+
+
+
     
     
